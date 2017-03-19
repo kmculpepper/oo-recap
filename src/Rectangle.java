@@ -3,8 +3,8 @@
  */
 public class Rectangle {
 
-    private double width;
-    private double length;
+    private final double width;
+    private final double length;
 
     public Rectangle(double width, double length) {
         this.width = width;
@@ -17,6 +17,6 @@ public class Rectangle {
     }
 
     public double perimeter() {
-        return 2*(width+length);
+        return 2.0*(width+length);
     }
 }
