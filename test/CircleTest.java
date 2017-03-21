@@ -38,9 +38,4 @@ public class CircleTest {
 
     }
 
-//    @Test(expected=NumberFormatException.class)
-//    public void shouldThrowExceptionWhenZeroRadiusIsGiven(){
-//        circle = new Circle(0);
-//    }
-
 }
